@@ -15,6 +15,7 @@ phases:
       - cd HelloWorldFunction
       - mvn package
       - cd ..
+      - sam init
       - sam build
 
   post_build:

@@ -12,7 +12,7 @@ phases:
   build:
     commands:
       # Use Build phase to build your artifacts (compile, etc.)
-      - cd HelloWorldFunction
+      - cd lambda
       - mvn package
       - cd ..
       - sam build

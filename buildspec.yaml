@@ -42,7 +42,7 @@ phases:
       - echo "Nothing to do in pre_build phase"
   build:
     commands:
-      - cd lambda
+      - cd HelloWorldFunction
       - mvn package
 artifacts:
   files: 'target/*.jar'
